@@ -17,7 +17,7 @@ const filenames = chars.map(({ name, id }) => path.resolve(__dirname, "dist", `$
 
 // TODO: You need to replace this value!
 const ADVENTURE_LAND_CODES_PATH =
-    "path/to/Adventure Land/autosync0123465789/adventureland/characters";
+    "/Users/edward/Library/Containers/land.adventure.rpg/Data/Library/Application Support/Adventure Land/autosync5731906213117952/adventureland/characters";
 
 /** This command will push your files to your remote server. */
 // TODO: If you want to use this command, you have to fill the server and path!

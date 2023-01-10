@@ -3,6 +3,8 @@
 // If you don't know how to code, don't worry, It's easy.
 // Just set attack_mode to true and ENGAGE!
 
+import { Entity } from "typed-adventureland";
+
 const attack_mode = false;
 
 setInterval(() => {
@@ -18,6 +20,7 @@ setInterval(() => {
         target = get_nearest_monster({ min_xp: 100, max_att: 120 });
 
         if (target) {
+            get_target(target)
             change_target(target);
         } else {
             set_message("No Monsters");
@@ -37,7 +40,6 @@ setInterval(() => {
     }
 }, 1000 / 4); // Loops every 1/4 seconds.
 
-// Learn Javascript: https://www.codecademy.com/learn/introduction-to-javascript
-// Write your own CODE: https://github.com/kaansoral/adventureland
-// NOTE: If the tab isn't focused, browsers slow down the game
-// NOTE: Use the performance_trick() function as a workaround
+function get_target(my_target: Entity) {
+    console.log("targeting")
+}
