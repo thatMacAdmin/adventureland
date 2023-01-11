@@ -2,6 +2,15 @@ import { Entity, ItemInfo } from "typed-adventureland";
 
 export class buy_potion_functions {
 
+    async buy_potions_sequence(desired_hpots: number, min_hpots: number, 
+                                desired_mpots: number, min_mpots: number) {
+        if (this.check_need_potions(min_hpots, min_mpots)) {
+        
+            await this.travel_to_potions();
+            await this.buy_potions(desired_hpots, desired_mpots);
+        }
+    }
+
     check_need_potions(minimum_hpots: number, minimum_mpots: number) {
         let num_hpot = this.get_number_potion("hpot0");
         let num_mpot = this.get_number_potion("mpot0");
