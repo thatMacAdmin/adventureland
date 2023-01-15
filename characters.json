@@ -3,5 +3,25 @@
         "name": "Ludeth",
         "ctype": "mage",
         "id": "4575600286629888"
+    },
+    {
+        "name": "thatMerchant",
+        "ctype": "merchant",
+        "id": "5327486086283264"
+    },
+    {
+        "name": "thatWarrior",
+        "ctype": "warrior",
+        "id": "5101044069040128"
+    },
+    {
+        "name": "thatPriest",
+        "ctype": "priest",
+        "id": "5006174415486976"
+    },
+    {
+        "name": "thatMage",
+        "ctype": "mage",
+        "id": "5569203255377920"
     }
 ]

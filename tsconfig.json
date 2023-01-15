@@ -1,23 +1,21 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {
-        "rootDir": ".",
-        "sourceMap": true,
-        "declaration": false,
-        "moduleResolution": "node",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "allowSyntheticDefaultImports": true,
-        "outDir": "./dist",
-        "importHelpers": true,
-        "target": "es2015",
-        "module": "es2022",
-        "lib": ["es2021", "dom"],
-        "skipLibCheck": true,
-        "skipDefaultLibCheck": true,
-        "strict": true,
-        "allowJs": true,
-        "typeRoots": ["./typings"]
-    },
-    "include": ["./typings/**/*.d.ts", "./src", "./node_modules/typed-adventureland"]
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs" ,
+      "lib": ["esnext", "dom"],
+      "allowSyntheticDefaultImports": true,
+      "noEmit": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "esModuleInterop": true,
+      "downlevelIteration": true,
+      "baseUrl": "./src",
+      "sourceMap": true,
+  },
+  "include": ["./typings/**/*.d.ts", "./src", "./node_modules/typed-adventureland"]
+
 }
