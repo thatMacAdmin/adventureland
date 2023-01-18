@@ -1,6 +1,6 @@
 import { Entity, ItemInfo, MonsterEntity } from "typed-adventureland";
 
-export class farm_monster_functions {
+export class farming_functions {
 
     move_closer_to_target(my_target: MonsterEntity) {
         set_message('closing distance')
